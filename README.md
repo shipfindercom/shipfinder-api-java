@@ -28,7 +28,7 @@ public class Main {
         VesselPositionMultiRequest params = new VesselPositionMultiRequest();
         params.setKey(key);
         params.setMmsis("413961925,477232800,477172700");
-        VesselPositionMultiResponse result = Shipfinder.GetManyShip(params);
+        VesselPositionMultiResponse result = Shipfinder.VesselPositionMulti(params);
         System.out.println(result);
     }
 }
