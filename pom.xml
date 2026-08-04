@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.shipfinder</groupId>
+    <groupId>io.github.shipfindercom</groupId>
     <artifactId>shipfinder-api</artifactId>
     <version>1.0.0</version>
 
@@ -117,9 +117,9 @@
 
     <!-- Change this to your own open-source project's information -->
     <scm>
-        <connection>scm:git@github.com:shipfinder/shipfinder-api-java.git</connection>
-        <developerConnection>scm:git@github.com:shipfinder/shipfinder-api-java.git</developerConnection>
-        <url>https://github.com/shipfinder/shipfinder-api-java</url>
+        <connection>scm:git@github.com:shipfindercom/shipfinder-api-java.git</connection>
+        <developerConnection>scm:git@github.com:shipfindercom/shipfinder-api-java.git</developerConnection>
+        <url>https://github.com/shipfindercom/shipfinder-api-java</url>
     </scm>
 
 
