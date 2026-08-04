@@ -2,15 +2,19 @@
 [ELANE](https://www.shipfinder.com/)&nbsp;&nbsp;
 [API Console](https://open.shipfinder.com/v1/console/overview)&nbsp;&nbsp;
 [API Document](https://docs.shipfinder.com/)&nbsp;&nbsp;
-[github](https://github.com/shipfinder/shipfinder-api-java)&nbsp;&nbsp;
-[sonatype](https://central.sonatype.com/artifact/io.github.shipfinder/shipfinder-api)&nbsp;&nbsp;
+[github](https://github.com/shipfindercom/shipfinder-api-java)&nbsp;&nbsp;
+[sonatype](https://central.sonatype.com/artifact/io.github.shipfindercom/shipfinder-api)&nbsp;&nbsp;
+
+## Requirements
+
+- JDK 21+
 
 ## Usage example
 ```
 <dependency>
-    <groupId>io.github.shipfinder</groupId>
+    <groupId>io.github.shipfindercom</groupId>
     <artifactId>shipfinder-api</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 ```
@@ -21,7 +25,10 @@ public class Main {
     private static String key = "Please apply from the API console.";
 
     public static void main(String[] args) {
-        ManyShipResponse result = Shipfinder.GetManyShip(key, "413961925,477232800,477172700");
+        VesselPositionMultiRequest params = new VesselPositionMultiRequest();
+        params.setKey(key);
+        params.setMmsis("413961925,477232800,477172700");
+        VesselPositionMultiResponse result = Shipfinder.GetManyShip(params);
         System.out.println(result);
     }
 }
