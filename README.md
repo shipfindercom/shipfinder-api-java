@@ -1,5 +1,5 @@
-# ELANE-sdk
-[ELANE](https://www.shipfinder.com/)&nbsp;&nbsp;
+# ShipFinder-sdk
+[ShipFinder](https://www.shipfinder.com/)&nbsp;&nbsp;
 [API Console](https://open.shipfinder.com/v1/console/overview)&nbsp;&nbsp;
 [API Document](https://docs.shipfinder.com/)&nbsp;&nbsp;
 [github](https://github.com/shipfindercom/shipfinder-api-java)&nbsp;&nbsp;
